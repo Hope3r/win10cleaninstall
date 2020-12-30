@@ -19,7 +19,7 @@ $apps = "steam",
         "vscode-powershell",
         "teamspeak",
         "qBittorrent",
-        "pswindowsupdate",
+        "pswindowsupdate", # Allowing Windows Updates using powershell
         "microsoft-edge", # Chromium based Edge
         # "nvidia-display-driver", # Replaced by NVCleanstall
         # "disable-nvidia-telemetry", # Not Working in latest drivers
