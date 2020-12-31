@@ -348,7 +348,7 @@ PowerShell -Command "Get-AppxPackage *photos* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *SkypeApp* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *solit* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *WindowsSoundRecorder* | Remove-AppxPackage"
-PowerShell -Command "Get-AppxPackage *xbox* | Remove-AppxPackage"
+@REM PowerShell -Command "Get-AppxPackage *xbox* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *windowscommunicationsapps* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *zune* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *WindowsCalculator* | Remove-AppxPackage"
@@ -358,7 +358,7 @@ PowerShell -Command "Get-AppxPackage *CommsPhone* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *ConnectivityStore* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *Microsoft.Messaging* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *ContentDeliveryManager* | Remove-AppxPackage"
-PowerShell -Command "Get-AppxPackage *Microsoft.WindowsStore* | Remove-AppxPackage"
+@REM PowerShell -Command "Get-AppxPackage *Microsoft.WindowsStore* | Remove-AppxPackage"
 
 :: Disabling One Drive
 cls
