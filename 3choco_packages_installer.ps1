@@ -26,23 +26,24 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install chocolatey-core.extension
 
 $apps = "steam",
-        "origin", 
-        "uplay",
-        "epicgameslauncher",
-        "discord", 
-        "7zip", 
-        "notepadplusplus", 
-        "vscode",
-        "vscode-powershell",
-        "teamspeak",
-        "qBittorrent",
-        "pswindowsupdate", # Allowing Windows Updates using powershell
-        "microsoft-edge", # Chromium based Edge or "firefox", or "chrome"
-        # "nvidia-display-driver", # Replaced by NVCleanstall
-        # "disable-nvidia-telemetry", # Not Working in latest drivers
-        "ddu", # Display Driver Uninstaller
-        "XnView", # Image viewer
-        "mpv" # Better Media Player or "mpc-be" # Media Player Classic Black Edition, or "vlc"
+"origin", 
+"uplay",
+"epicgameslauncher",
+"discord", 
+"7zip", 
+"notepadplusplus", 
+"vscode",
+"vscode-powershell",
+"teamspeak",
+"qBittorrent",
+"pswindowsupdate", # Allowing Windows Updates using powershell
+"microsoft-edge", # Chromium based Edge or "firefox", or "chrome"
+# "nvidia-display-driver", # Replaced by NVCleanstall
+# "disable-nvidia-telemetry", # Not Working in latest drivers
+"ddu", # Display Driver Uninstaller
+"XnView", # Image viewer
+"mpv", # Better Media Player or "mpc-be" # Media Player Classic Black Edition, or "vlc"
+"everything"
 
 foreach ($app in $apps) {
     $i = $i + 1
